@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BeButtonView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    BeButtonView *timean = [[BeButtonView alloc]initWithFrame:CGRectMake(0, 80, 150, 150)];
+    timean.center = CGPointMake(self.view.bounds.size.width*0.5, self.view.bounds.size.height *0.5);
+    [self.view addSubview:timean];
+    
 }
 
 

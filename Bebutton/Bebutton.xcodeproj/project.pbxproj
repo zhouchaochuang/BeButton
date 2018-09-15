@@ -15,6 +15,8 @@
 		BA3A279A214CB9F4001BA97D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A2799214CB9F4001BA97D /* main.m */; };
 		BA3A27A4214CB9F4001BA97D /* BebuttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A27A3214CB9F4001BA97D /* BebuttonTests.m */; };
 		BA3A27AF214CB9F4001BA97D /* BebuttonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A27AE214CB9F4001BA97D /* BebuttonUITests.m */; };
+		BA3A27D9214CBAB3001BA97D /* z3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3A27D6214CBAB3001BA97D /* z3@2x.png */; };
+		BA3A27DA214CBAB3001BA97D /* BeButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A27D8214CBAB3001BA97D /* BeButtonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		BA3A27AA214CB9F4001BA97D /* BebuttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BebuttonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3A27AE214CB9F4001BA97D /* BebuttonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BebuttonUITests.m; sourceTree = "<group>"; };
 		BA3A27B0214CB9F4001BA97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3A27D6214CBAB3001BA97D /* z3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "z3@2x.png"; sourceTree = "<group>"; };
+		BA3A27D7214CBAB3001BA97D /* BeButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeButtonView.h; sourceTree = "<group>"; };
+		BA3A27D8214CBAB3001BA97D /* BeButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeButtonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		BA3A2789214CB9F1001BA97D /* Bebutton */ = {
 			isa = PBXGroup;
 			children = (
+				BA3A27D5214CBAB3001BA97D /* BebuttonView */,
 				BA3A278A214CB9F1001BA97D /* AppDelegate.h */,
 				BA3A278B214CB9F1001BA97D /* AppDelegate.m */,
 				BA3A278D214CB9F1001BA97D /* ViewController.h */,
@@ -130,6 +136,16 @@
 				BA3A27B0214CB9F4001BA97D /* Info.plist */,
 			);
 			path = BebuttonUITests;
+			sourceTree = "<group>";
+		};
+		BA3A27D5214CBAB3001BA97D /* BebuttonView */ = {
+			isa = PBXGroup;
+			children = (
+				BA3A27D6214CBAB3001BA97D /* z3@2x.png */,
+				BA3A27D7214CBAB3001BA97D /* BeButtonView.h */,
+				BA3A27D8214CBAB3001BA97D /* BeButtonView.m */,
+			);
+			path = BebuttonView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +254,7 @@
 				BA3A2797214CB9F4001BA97D /* LaunchScreen.storyboard in Resources */,
 				BA3A2794214CB9F4001BA97D /* Assets.xcassets in Resources */,
 				BA3A2792214CB9F1001BA97D /* Main.storyboard in Resources */,
+				BA3A27D9214CBAB3001BA97D /* z3@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +282,7 @@
 				BA3A278F214CB9F1001BA97D /* ViewController.m in Sources */,
 				BA3A279A214CB9F4001BA97D /* main.m in Sources */,
 				BA3A278C214CB9F1001BA97D /* AppDelegate.m in Sources */,
+				BA3A27DA214CBAB3001BA97D /* BeButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DEELANSLBQ;
 				INFOPLIST_FILE = Bebutton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +472,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DEELANSLBQ;
 				INFOPLIST_FILE = Bebutton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
