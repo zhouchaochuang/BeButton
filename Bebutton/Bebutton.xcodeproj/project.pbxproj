@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA3A278C214CB9F1001BA97D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A278B214CB9F1001BA97D /* AppDelegate.m */; };
+		BA3A278F214CB9F1001BA97D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A278E214CB9F1001BA97D /* ViewController.m */; };
+		BA3A2792214CB9F1001BA97D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3A2790214CB9F1001BA97D /* Main.storyboard */; };
+		BA3A2794214CB9F4001BA97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3A2793214CB9F4001BA97D /* Assets.xcassets */; };
+		BA3A2797214CB9F4001BA97D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3A2795214CB9F4001BA97D /* LaunchScreen.storyboard */; };
+		BA3A279A214CB9F4001BA97D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A2799214CB9F4001BA97D /* main.m */; };
+		BA3A27A4214CB9F4001BA97D /* BebuttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A27A3214CB9F4001BA97D /* BebuttonTests.m */; };
+		BA3A27AF214CB9F4001BA97D /* BebuttonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3A27AE214CB9F4001BA97D /* BebuttonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA3A27A0214CB9F4001BA97D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA3A277F214CB9F1001BA97D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3A2786214CB9F1001BA97D;
+			remoteInfo = Bebutton;
+		};
+		BA3A27AB214CB9F4001BA97D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA3A277F214CB9F1001BA97D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3A2786214CB9F1001BA97D;
+			remoteInfo = Bebutton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA3A2787214CB9F1001BA97D /* Bebutton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bebutton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3A278A214CB9F1001BA97D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA3A278B214CB9F1001BA97D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA3A278D214CB9F1001BA97D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA3A278E214CB9F1001BA97D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA3A2791214CB9F1001BA97D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA3A2793214CB9F4001BA97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA3A2796214CB9F4001BA97D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA3A2798214CB9F4001BA97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3A2799214CB9F4001BA97D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA3A279F214CB9F4001BA97D /* BebuttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BebuttonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3A27A3214CB9F4001BA97D /* BebuttonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BebuttonTests.m; sourceTree = "<group>"; };
+		BA3A27A5214CB9F4001BA97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3A27AA214CB9F4001BA97D /* BebuttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BebuttonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3A27AE214CB9F4001BA97D /* BebuttonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BebuttonUITests.m; sourceTree = "<group>"; };
+		BA3A27B0214CB9F4001BA97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA3A2784214CB9F1001BA97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3A279C214CB9F4001BA97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3A27A7214CB9F4001BA97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA3A277E214CB9F1001BA97D = {
+			isa = PBXGroup;
+			children = (
+				BA3A2789214CB9F1001BA97D /* Bebutton */,
+				BA3A27A2214CB9F4001BA97D /* BebuttonTests */,
+				BA3A27AD214CB9F4001BA97D /* BebuttonUITests */,
+				BA3A2788214CB9F1001BA97D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA3A2788214CB9F1001BA97D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA3A2787214CB9F1001BA97D /* Bebutton.app */,
+				BA3A279F214CB9F4001BA97D /* BebuttonTests.xctest */,
+				BA3A27AA214CB9F4001BA97D /* BebuttonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA3A2789214CB9F1001BA97D /* Bebutton */ = {
+			isa = PBXGroup;
+			children = (
+				BA3A278A214CB9F1001BA97D /* AppDelegate.h */,
+				BA3A278B214CB9F1001BA97D /* AppDelegate.m */,
+				BA3A278D214CB9F1001BA97D /* ViewController.h */,
+				BA3A278E214CB9F1001BA97D /* ViewController.m */,
+				BA3A2790214CB9F1001BA97D /* Main.storyboard */,
+				BA3A2793214CB9F4001BA97D /* Assets.xcassets */,
+				BA3A2795214CB9F4001BA97D /* LaunchScreen.storyboard */,
+				BA3A2798214CB9F4001BA97D /* Info.plist */,
+				BA3A2799214CB9F4001BA97D /* main.m */,
+			);
+			path = Bebutton;
+			sourceTree = "<group>";
+		};
+		BA3A27A2214CB9F4001BA97D /* BebuttonTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA3A27A3214CB9F4001BA97D /* BebuttonTests.m */,
+				BA3A27A5214CB9F4001BA97D /* Info.plist */,
+			);
+			path = BebuttonTests;
+			sourceTree = "<group>";
+		};
+		BA3A27AD214CB9F4001BA97D /* BebuttonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA3A27AE214CB9F4001BA97D /* BebuttonUITests.m */,
+				BA3A27B0214CB9F4001BA97D /* Info.plist */,
+			);
+			path = BebuttonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA3A2786214CB9F1001BA97D /* Bebutton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3A27B3214CB9F4001BA97D /* Build configuration list for PBXNativeTarget "Bebutton" */;
+			buildPhases = (
+				BA3A2783214CB9F1001BA97D /* Sources */,
+				BA3A2784214CB9F1001BA97D /* Frameworks */,
+				BA3A2785214CB9F1001BA97D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bebutton;
+			productName = Bebutton;
+			productReference = BA3A2787214CB9F1001BA97D /* Bebutton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA3A279E214CB9F4001BA97D /* BebuttonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3A27B6214CB9F4001BA97D /* Build configuration list for PBXNativeTarget "BebuttonTests" */;
+			buildPhases = (
+				BA3A279B214CB9F4001BA97D /* Sources */,
+				BA3A279C214CB9F4001BA97D /* Frameworks */,
+				BA3A279D214CB9F4001BA97D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA3A27A1214CB9F4001BA97D /* PBXTargetDependency */,
+			);
+			name = BebuttonTests;
+			productName = BebuttonTests;
+			productReference = BA3A279F214CB9F4001BA97D /* BebuttonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA3A27A9214CB9F4001BA97D /* BebuttonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3A27B9214CB9F4001BA97D /* Build configuration list for PBXNativeTarget "BebuttonUITests" */;
+			buildPhases = (
+				BA3A27A6214CB9F4001BA97D /* Sources */,
+				BA3A27A7214CB9F4001BA97D /* Frameworks */,
+				BA3A27A8214CB9F4001BA97D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA3A27AC214CB9F4001BA97D /* PBXTargetDependency */,
+			);
+			name = BebuttonUITests;
+			productName = BebuttonUITests;
+			productReference = BA3A27AA214CB9F4001BA97D /* BebuttonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA3A277F214CB9F1001BA97D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = wallace;
+				TargetAttributes = {
+					BA3A2786214CB9F1001BA97D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BA3A279E214CB9F4001BA97D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BA3A2786214CB9F1001BA97D;
+					};
+					BA3A27A9214CB9F4001BA97D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BA3A2786214CB9F1001BA97D;
+					};
+				};
+			};
+			buildConfigurationList = BA3A2782214CB9F1001BA97D /* Build configuration list for PBXProject "Bebutton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA3A277E214CB9F1001BA97D;
+			productRefGroup = BA3A2788214CB9F1001BA97D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA3A2786214CB9F1001BA97D /* Bebutton */,
+				BA3A279E214CB9F4001BA97D /* BebuttonTests */,
+				BA3A27A9214CB9F4001BA97D /* BebuttonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA3A2785214CB9F1001BA97D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3A2797214CB9F4001BA97D /* LaunchScreen.storyboard in Resources */,
+				BA3A2794214CB9F4001BA97D /* Assets.xcassets in Resources */,
+				BA3A2792214CB9F1001BA97D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3A279D214CB9F4001BA97D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3A27A8214CB9F4001BA97D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA3A2783214CB9F1001BA97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3A278F214CB9F1001BA97D /* ViewController.m in Sources */,
+				BA3A279A214CB9F4001BA97D /* main.m in Sources */,
+				BA3A278C214CB9F1001BA97D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3A279B214CB9F4001BA97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3A27A4214CB9F4001BA97D /* BebuttonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3A27A6214CB9F4001BA97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3A27AF214CB9F4001BA97D /* BebuttonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA3A27A1214CB9F4001BA97D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA3A2786214CB9F1001BA97D /* Bebutton */;
+			targetProxy = BA3A27A0214CB9F4001BA97D /* PBXContainerItemProxy */;
+		};
+		BA3A27AC214CB9F4001BA97D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA3A2786214CB9F1001BA97D /* Bebutton */;
+			targetProxy = BA3A27AB214CB9F4001BA97D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA3A2790214CB9F1001BA97D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3A2791214CB9F1001BA97D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA3A2795214CB9F4001BA97D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3A2796214CB9F4001BA97D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA3A27B1214CB9F4001BA97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA3A27B2214CB9F4001BA97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA3A27B4214CB9F4001BA97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEELANSLBQ;
+				INFOPLIST_FILE = Bebutton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = con.test.jason.Bebutton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA3A27B5214CB9F4001BA97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEELANSLBQ;
+				INFOPLIST_FILE = Bebutton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = con.test.jason.Bebutton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA3A27B7214CB9F4001BA97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEELANSLBQ;
+				INFOPLIST_FILE = BebuttonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = con.test.jason.BebuttonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bebutton.app/Bebutton";
+			};
+			name = Debug;
+		};
+		BA3A27B8214CB9F4001BA97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEELANSLBQ;
+				INFOPLIST_FILE = BebuttonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = con.test.jason.BebuttonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bebutton.app/Bebutton";
+			};
+			name = Release;
+		};
+		BA3A27BA214CB9F4001BA97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEELANSLBQ;
+				INFOPLIST_FILE = BebuttonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = con.test.jason.BebuttonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bebutton;
+			};
+			name = Debug;
+		};
+		BA3A27BB214CB9F4001BA97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEELANSLBQ;
+				INFOPLIST_FILE = BebuttonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = con.test.jason.BebuttonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bebutton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA3A2782214CB9F1001BA97D /* Build configuration list for PBXProject "Bebutton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3A27B1214CB9F4001BA97D /* Debug */,
+				BA3A27B2214CB9F4001BA97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3A27B3214CB9F4001BA97D /* Build configuration list for PBXNativeTarget "Bebutton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3A27B4214CB9F4001BA97D /* Debug */,
+				BA3A27B5214CB9F4001BA97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3A27B6214CB9F4001BA97D /* Build configuration list for PBXNativeTarget "BebuttonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3A27B7214CB9F4001BA97D /* Debug */,
+				BA3A27B8214CB9F4001BA97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3A27B9214CB9F4001BA97D /* Build configuration list for PBXNativeTarget "BebuttonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3A27BA214CB9F4001BA97D /* Debug */,
+				BA3A27BB214CB9F4001BA97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA3A277F214CB9F1001BA97D /* Project object */;
+}
